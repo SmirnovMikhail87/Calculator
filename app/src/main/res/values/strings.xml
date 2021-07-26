@@ -16,4 +16,6 @@
     <string name="divide">/</string>
     <string name="equals">=</string>
     <string name="AC">AC</string>
+    <string name="point">.</string>
+    <string name="back">◄</string>
 </resources>
