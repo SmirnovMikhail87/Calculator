@@ -1,11 +1,11 @@
 package com.smirnovma.calculator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -71,62 +71,66 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.button0:
-                textView.setText("0");
+                textView.setText(textView.getText() + "0");
                 break;
             case R.id.button1:
-                textView.setText("1");
+                textView.setText(textView.getText() + "1");
                 break;
             case R.id.button2:
-                textView.setText("2");
+                textView.setText(textView.getText() + "2");
                 break;
             case R.id.button3:
-                textView.setText("3");
+                textView.setText(textView.getText() + "3");
                 break;
             case R.id.button4:
-                textView.setText("4");
+                textView.setText(textView.getText() + "4");
                 break;
             case R.id.button5:
-                textView.setText("5");
+                textView.setText(textView.getText() + "5");
                 break;
             case R.id.button6:
-                textView.setText("6");
+                textView.setText(textView.getText() + "6");
                 break;
             case R.id.button7:
-                textView.setText("7");
+                textView.setText(textView.getText() + "7");
                 break;
             case R.id.button8:
-                textView.setText("8");
+                textView.setText(textView.getText() + "8");
                 break;
             case R.id.button9:
-                textView.setText("9");
+                textView.setText(textView.getText() + "9");
                 break;
             case R.id.button_point:
-                textView.setText(".");
+                textView.setText(textView.getText() + ".");
                 break;
             case R.id.button_divide:
-                textView.setText("/");
+                textView.setText(textView.getText() + "/");
                 break;
             case R.id.button_multiply:
-                textView.setText("*");
+                textView.setText(textView.getText() + "*");
                 break;
             case R.id.button_minus:
-                textView.setText("-");
+                textView.setText(textView.getText() + "-");
                 break;
             case R.id.button_plus:
-                textView.setText("+");
+                textView.setText(textView.getText() + "+");
                 break;
             case R.id.button_equals:
-                textView.setText("=");
+                textView.setText(textView.getText() + "=");
                 break;
             case R.id.button_back:
-                textView.setText("123123");
+                String str = String.valueOf(textView.getText());
+                if (!str.equals("")) {
+                    textView.setText(str.substring(0, str.length() - 1));
+                }
                 break;
             case R.id.button_AC:
-                textView.setText("123123");
+                textView.setText("");
                 break;
-            default: break;
+            default:
+                break;
 
         }
 
