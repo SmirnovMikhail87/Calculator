@@ -9,6 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    private final static String KEYTEXT = "TEXT";
+    private final static String KEYTEXTEQUALS = "TEXTEQUALS";
+
     private TextView textView;
     private TextView textViewEquals;
 
@@ -18,6 +21,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         initView();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(KEYTEXT, String.valueOf(textView.getText()));
+        outState.putString(KEYTEXTEQUALS, String.valueOf(textViewEquals.getText()));
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        String str = savedInstanceState.getString(KEYTEXT);
+        textView.setText(str);
+        String strEquals = savedInstanceState.getString(KEYTEXTEQUALS);
+        textViewEquals.setText(strEquals);
+
     }
 
     private void initView() {
