@@ -9,6 +9,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textView"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="textEnd"
@@ -22,6 +23,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textViewEquals"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="end"
@@ -34,6 +36,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_AC"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_light_grey"
@@ -48,6 +51,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button0"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -62,6 +66,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_point"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -76,6 +81,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_equals"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_yellow"
@@ -90,6 +96,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_plus"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_yellow"
@@ -104,6 +111,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -118,6 +126,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -132,6 +141,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button1"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -146,6 +156,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -160,6 +171,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button5"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -174,6 +186,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button6"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -188,6 +201,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_minus"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_yellow"
@@ -202,6 +216,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_multiply"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_yellow"
@@ -216,6 +231,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button9"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -230,6 +246,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button8"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -244,6 +261,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button7"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_grey"
@@ -258,6 +276,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_divide"
+        style="@style/ThemeMy.Calculator"
         android:layout_width="@dimen/button_layout_width"
         android:layout_height="@dimen/button_layout_height"
         android:background="@drawable/button_yellow"
